@@ -17,6 +17,9 @@ F_R_cut (Forward/Reverse read count balance)
 # Example
 This is an example to run the script: Genotype_Call(het_bal1_cut=0.5,het_bal2_cut=0.7,het_bal3_cut=0.1,hom_bal_cut=0.95,Q_cut=25,cov_hom_cut=10,cov_het_cut=5,cov_max=5000,F_R_cut=0.19,indata="Input.txt",outfile="Output")
 
+The input file must contain the following columns:
+"Chromosome", "Region", "Allele", "Count", "Forward/reverse balance", "Average quality". Each marker should have four rows, one per nucelotide (A, C, G, T)
+
 ## License
 
 This code is released under the MIT License (OSI-approved).  
