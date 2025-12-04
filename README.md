@@ -1,5 +1,5 @@
 # DISCLAIMER
-This R script provides a basic implementation for genotype calling and is intended solely for research and educational purposes. It has not been  validated, has no formal error handling, and may not perform reliably on all datasets. Users are responsible for verifying the accuracy and suitability of the results for their specific application.
+This is an in-house R script for genotype calling. This code was used to analyze the data described in Comparative assessment of SNP genotyping assays for challenging forensic samples utilizing ancient DNA methods (Staadig et. al).
 # Genotype_Call
 The Genotype_Call R script can be used to call genotypes from sequence data generated from CLC Genomics Workbench. An example of input file format is shown below. The R script was developed under R version 4.3.1.
 
